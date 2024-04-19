@@ -1,0 +1,467 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/images/galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: -300px;
+}
+
+.nav{
+    background-color: rgba(67, 222, 243, 0.541);
+    height: 80px;
+    width: 100%;
+    border-radius: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.nav img {
+    animation: rotate 5s linear infinite; 
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav h1{
+    margin-left: 0px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+a:hover{
+    color: black;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.quotes{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-left: 120px;
+    margin-top: 100px;
+    background-color: rgba(0, 102, 255, 0.721);
+    
+}
+
+
+.blink {
+    width: 150px; 
+    height: 150px; 
+    position: relative;
+    overflow: hidden;
+    margin-top:-1000px;
+    margin-left: 75px;
+    background-color: rgba(0, 28, 128, 0.541);
+    border-radius: 20px;
+}
+
+
+.blink:hover{
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: rgb(231, 238, 83);
+    animation-name: fadeInOut;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.animate1{
+    margin-top: -150px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.animate{
+    margin-left: 50px;
+    width: 200px;
+}
+
+
+.quote1{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-left: 120px;
+    margin-top: 100px;
+    background-color: rgba(0, 102, 255, 0.721);
+    margin-top: -450px;
+    margin-left: 600px;
+}
+
+.blink1{
+    width: 150px; 
+    height: 150px; 
+    position: relative;
+    overflow: hidden;
+    margin-top: -140px;
+    margin-left: 75px;
+    background-color: rgba(0, 28, 128, 0.541);
+    border-radius: 20px;
+    cursor: pointer;
+    animation: pulse 2s infinite alternate;
+
+}
+
+.blink1:hover{
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.lobster-regular1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20px;
+    color: rgb(231, 238, 83);
+    animation: fadeIn 1s ease forwards;
+    margin-top: 10px;
+
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.animate3{
+    margin-top: -200px;
+    margin-left: 70px;
+}
+
+
+.animate2{
+    margin-left: 70px;
+}
+
+
+.quote2{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-left: 1100px;
+    margin-top: -450px;
+    background-color: rgba(0, 102, 255, 0.721);
+
+}
+
+.blink3{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -120px;
+    margin-left: 75px;
+    background-color: rgba(0, 28, 128, 0.541);
+    border-radius: 20px;
+    cursor: pointer;
+    animation: blinkAnimation 1.5s ease-in-out infinite;
+
+}
+
+.blink3:hover{
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@keyframes blinkAnimation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.lobster-regular2{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(231, 238, 83);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.animate4{
+    width: 200px;
+    
+}
+
+.animate5{
+    width: 200px;
+    margin-top: -400px;
+}
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .quote2 p {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+.info{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: 500px;
+    margin-left: 200px;
+    background-color: rgba(0, 102, 255, 0.721);
+}
+
+.exit
+{
+  height: 40px;
+  width: 40px;
+  margin-left: 720px;
+  margin-top: 50px;
+}
+
+.container {
+        position: relative;
+
+}
+.blocks {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        margin-left: 710px;
+        margin-top: 30px;
+        height: 600px;
+        width: 600px;
+      
+}
+
+.block1{
+  margin-left: 80px;
+  margin-top: 140px;
+  height: 1000px;
+  width: 600px;
+}
+
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: whitesmoke;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+
+/*.text1 p, .text1 h2 {
+  animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+      color:whitesmoke;
+  }
+  50% {
+      color: yellowgreen;
+  }
+  100% {
+      color: rgb(12, 77, 90);
+  }
+}
+
+/*.text1 h2{
+  font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-left: -250px;
+}*/
+
+.container {
+  display: flex; 
+  align-items: center;
+}
+
+.text1 {
+  flex: 1; 
+}
+
+
+.text1 h2{
+  margin-top: 200px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blanchedalmond;
+}
+
+.text1 p{
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 40px;
+
+}
+
+.img-block {
+  flex: 1;
+}
+
+.blocks, .block1 {
+  max-width: 100%;
+}
+
+.museomoderno{
+    color: rgb(154, 100, 206);
+    text-transform: none;
+    letter-spacing: normal;
+    font-family: MuseoModerno;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.container1 {
+  display: flex; 
+  align-items: center;
+}
+
+.union {
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  font-style: normal;
+  margin: 0;
+  color: rgba(255, 255, 0, 0.722);
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+
+.jersey-25-regular1 {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  font-style: normal;
+  margin: 0;
+  color: rgba(255, 255, 0, 0.722);
+  margin-left: -500px;
+  margin-top: 230px;
+}
+
+
+footer{
+  background-color: whitesmoke;
+  height: 100px;
+  width: auto;
+  margin-top: 700px;
+}
+
+h3{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255, 132, 0);
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+

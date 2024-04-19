@@ -1,0 +1,15 @@
+<%-include("partials/header.ejs")%>
+
+<h1>Register Form</h1>
+<form action="/register" method="POST">
+  <label for="First Name">First Name:</label><br>
+  <input type="text" id="First Name" name="First Name" required style="background-color: rgba(0,0,0,0.1);"><br>
+  <label for="Last Name">Last Name:</label><br>
+  <input type="text" id="Last Name" name="Last Name" required style="background-color: rgba(0,0,0,0.1);"><br>
+  <label for="username">Email:</label><br>
+  <input type="text" id="username" name="username" required style="background-color: rgba(0,0,0,0.1);"><br>
+  <label for="password">Password:</label><br>
+  <input type="text" id="password" name="password" required style="background-color: rgba(0,0,0,0.1);"><br>
+  <input type="submit" value="Register">
+  <a class="link" href="/login"><p>Already have an account ? Login Here</p></a>
+</form> 
